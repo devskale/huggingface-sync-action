@@ -35,7 +35,7 @@ def main(
         repo_type=repo_type,
         token=token,
         commit_message="Synced repo using 'sync_with_huggingface' Github Action",
-        ignore_patterns=["*.git*", "*README.md*"],
+        ignore_patterns=["*.git*"],
     )
     print(f"\t- Repo synced: {commit_url}")
 
